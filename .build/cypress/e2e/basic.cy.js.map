@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../cypress/e2e/basic.cy.ts"],
+  "sourcesContent": ["describe('empty spec', () => {\n  beforeEach(() => {\n    cy.visit('/')\n  })\n\n  it(\"should allow you to register and login\", () => {\n    const loginForm = {\n      email: 'test@example.com',\n      password: 'test1234!',\n    };\n    cy.findByRole(\"link\", { name: /sign up/i }).click();\n    cy.findByRole(\"textbox\", { name: /email/i }).type(loginForm.email);\n    cy.findByLabelText(/password/i).type(loginForm.password);\n    cy.findByRole(\"button\", { name: /create account/i }).click();\n  })\n}) "],
+  "mappings": ";AAAA,SAAS,cAAc,MAAM;AAC3B,aAAW,MAAM;AACf,OAAG,MAAM,GAAG;AAAA,EACd,CAAC;AAED,KAAG,0CAA0C,MAAM;AACjD,UAAM,YAAY;AAAA,MAChB,OAAO;AAAA,MACP,UAAU;AAAA,IACZ;AACA,OAAG,WAAW,QAAQ,EAAE,MAAM,WAAW,CAAC,EAAE,MAAM;AAClD,OAAG,WAAW,WAAW,EAAE,MAAM,SAAS,CAAC,EAAE,KAAK,UAAU,KAAK;AACjE,OAAG,gBAAgB,WAAW,EAAE,KAAK,UAAU,QAAQ;AACvD,OAAG,WAAW,UAAU,EAAE,MAAM,kBAAkB,CAAC,EAAE,MAAM;AAAA,EAC7D,CAAC;AACH,CAAC;",
+  "names": []
+}

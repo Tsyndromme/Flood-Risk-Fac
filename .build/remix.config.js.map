@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../remix.config.js"],
+  "sourcesContent": ["/** @type {import('@remix-run/dev').AppConfig} */\nmodule.exports = {\n  serverBuildTarget: \"netlify\",\n  server:\n    process.env.NETLIFY || process.env.NETLIFY_LOCAL\n      ? \"./server.js\"\n      : undefined,\n  ignoredRouteFiles: [\"**/.*\"],\n  // appDirectory: \"app\",\n  // assetsBuildDirectory: \"public/build\",\n  // serverBuildPath: \".netlify/functions-internal/server.js\",\n  // publicPath: \"/build/\",\n};\n"],
+  "mappings": ";AACA,OAAO,UAAU;AAAA,EACf,mBAAmB;AAAA,EACnB,QACE,QAAQ,IAAI,WAAW,QAAQ,IAAI,gBAC/B,gBACA;AAAA,EACN,mBAAmB,CAAC,OAAO;AAK7B;",
+  "names": []
+}

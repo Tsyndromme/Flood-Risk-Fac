@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../cypress.config.ts"],
+  "sourcesContent": ["import { defineConfig } from \"cypress\";\n\nexport default defineConfig({\n  projectId: \"dyxe34\",\n  e2e: {\n    baseUrl: \"http://localhost:3000\"\n  },\n});"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAA6B;AAE7B,IAAO,6BAAQ,6BAAa;AAAA,EAC1B,WAAW;AAAA,EACX,KAAK;AAAA,IACH,SAAS;AAAA,EACX;AACF,CAAC;",
+  "names": []
+}

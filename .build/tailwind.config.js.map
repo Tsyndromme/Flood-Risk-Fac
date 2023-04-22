@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tailwind.config.js"],
+  "sourcesContent": ["module.exports = {\n  content: [\"./app/**/*.{ts,tsx,jsx,js}\"],\n  theme: {\n    extend: {},\n  },\n  plugins: [],\n};\n"],
+  "mappings": ";AAAA,OAAO,UAAU;AAAA,EACf,SAAS,CAAC,4BAA4B;AAAA,EACtC,OAAO;AAAA,IACL,QAAQ,CAAC;AAAA,EACX;AAAA,EACA,SAAS,CAAC;AACZ;",
+  "names": []
+}

@@ -6,7 +6,7 @@ Deployed Site: [kpop-stack.netlify.app](https://kpop-stack.netlify.app)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-```
+```jvjhvjh
 npx create-remix --template netlify-templates/kpop-stack
 ```
 
